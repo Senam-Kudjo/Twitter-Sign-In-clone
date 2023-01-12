@@ -1,0 +1,219 @@
+body {
+    background-color: rgb(44, 44, 44);
+}
+
+#cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+#hero {
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    width: 35%;
+    height: 75vh;
+    border-radius: 15px;
+    margin-top: 6%;
+    margin-left: 35%;
+}
+
+#toprow {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    color: white;
+}
+
+#hero h3 {
+    font-weight: bolder;
+    font-size: 23px;
+    color: white;
+    padding-top: 25px;
+    text-align: center;
+    font-family: Nunito;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.signinas {
+    width: 250px;
+    height: 33px;
+    background-color: white;
+    color: black;
+    border-width: 0px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+#buttons .signinas h4 {
+    color: rgb(47, 47, 47);
+    margin-top: 5px;
+    margin-left: 25px;
+    font-weight: bold;
+    font-size: 10px;
+    text-align: left;
+}
+
+#buttons .signinas h5 {
+    margin-top: -10px;
+    margin-left: 25px;
+    font-weight: bold;
+    font-size: 10px;
+    text-align: left;
+    color: grey;
+}
+
+.signinas:hover {
+    background-color: rgb(218, 218, 218);
+    color: black;
+}
+
+.signinwith {
+    width: 250px;
+    height: 33px;
+    background-color: white;
+    color: black;
+    border-width: 0px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.signinwith:hover {
+    background-color: grey;
+    transition: 0.3 ease-in-out;
+    color: white;
+
+}
+
+#buttons h5 {
+    color: grey;
+}
+
+#input {
+    height: 40px;
+    width: 240px;
+    padding-left: 5px;
+    background-color: transparent;
+    border-width: 1px;
+    border-color: grey;
+    margin-bottom: 20px;
+    border-style: dashed;
+    color: white;
+    border-radius: 3px;
+}
+
+#input:hover {
+    background-color: white;
+    color: grey;
+    border-width: 0px;
+}
+
+.next {
+    width: 250px;
+    height: 30px;
+    background-color: white;
+    color: rgb(67, 67, 67);
+    border-width: 0px;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.next:hover {
+    background-color: black;
+    color: white;
+    border-width: 1px;
+    border-color: white;
+}
+
+.forgotpassword {
+    height: 30px;
+    width: 250px;
+    padding-left: 5px;
+    background-color: transparent;
+    border-width: 1px;
+    border-color: grey;
+    margin-bottom: 20px;
+    border-radius: 40px;
+    color: white;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.forgotpassword:hover {
+    background-color: grey;
+    color: white;
+}
+
+#footer h5 {
+    color: grey;
+    text-align: center;
+    font-weight: lighter;
+}
+
+#footer a {
+    color: cyan;
+}
+
+#accountsswap {
+    margin-top: 20px;
+    background-color: white;
+    width: 350px;
+    height: 170px;
+    border-radius: 5px;
+}
+
+.r1 {
+    font-size: 11px;
+    margin-left: 40px;
+    padding-bottom: 5px;
+}
+
+.r2 {
+
+    margin-top: -5px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+}
+
+.r2 h3 {
+    margin-left: 40px;
+    font-weight: 540;
+    font-size: 11px;
+    font-weight: 600;
+    color: rgb(88, 88, 88);
+}
+
+.r2 h5 {
+    margin-top: -10px;
+    color: grey;
+    margin-left: 40px;
+    font-size: 10px;
+    font-weight: lighter;
+}
+
+.line {
+    height: 1px;
+    width: 310px;
+    background: grey;
+    margin-top: -10px;
+    margin-left: 15px;
+
+}
+
+.r3 {
+    font-size: 10px;
+    margin-top: 10px;
+    margin-left: 145px;
+    color: grey;
+
+}
